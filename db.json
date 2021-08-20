@@ -166,11 +166,15 @@
         "incidentType": "fatal"
       }
     ],
-    "nameOfEquipmentandMaterialDemage": {
-      "nameOfMaterialEquipment": "",
-      "extendOfDamage": "",
-      "remarks": ""
-    },
+    "nameOfEquipmentandMaterialDemage": [ {
+      "nameOfMaterialEquipment": "nameOfMaterialEquipment1",
+      "extendOfDamage": "extendOfDamage2",
+      "remarks": "remarks1"
+    },{
+      "nameOfMaterialEquipment": "nameOfMaterialEquipment2",
+      "extendOfDamage": "extendOfDamage2",
+      "remarks": "remarks2"
+    }],
     "injuryType": "",
     "isPSMincident": true,
     "personInvolveInNearMiss": "",
