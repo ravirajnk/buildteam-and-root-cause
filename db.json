@@ -1,6 +1,55 @@
 {
 "data":{
 "buildteam":{
+"incidentDetail":"This is iscident detail data",
+"immediateCorrectiveActionTaken":"This is immediate Corrective Action Taken",
+"investigationteamDetails":[{
+"position":"Member",
+"ownOrOtherMember":"Others",
+"name":"sagar",
+"employeeCode":""
+},
+{
+"position":"Team leader",
+"ownOrOtherMember":"Own",
+"name":"Yogesh",
+"employeeCode":20662
+}],
+"ownEmployeeInjuredDetails":[{
+ "employeeType": "Perment Employee",
+      "contractorsWorkforce": "",
+      "employeeName": "Akash Choudary",
+      "injuryNature":["fracture","strain","Heat burn"],
+      "bodyPartsInjured":["Head","ear"],
+      "incidentType":["fatal"]
+},
+{
+ "employeeType": "Temporary Employee",
+      "contractorsWorkforce": "GK Thakore",
+      "employeeName": "Rajesh",
+      "injuryNature":["fracture","Heat burn"],
+      "bodyPartsInjured":["legs","hand","back"],
+      "incidentType":["First aid"]
+
+}],
+"otherEmployeeInjuredDetails":[{
+ "contractorEmployee":  "Constructors Employees",
+      "contractorsName":  "G.s Sisodiya",
+      "employeeName":  "Jayesh",
+      "department": "GIC-2 Poduction",
+      "injuryNature": ["Mild","Rash"],
+      "bodyPartsInjured": ["feet","head"],
+      "incidentType": "Restricted work day case"
+},
+{
+ "contractorEmployee":  "Others",
+      "contractorsName":  "",
+      "employeeName":  "Nimesh",
+      "department": "",
+      "injuryNature": ["Bruise","Impact","Crushing"],
+      "bodyPartsInjured": ["back","fingures"],
+      "incidentType": "fatal"
+}]
 },
 "rootcause":{
 "whyWhyAnalysisDate":"Tue Aug 10 2021 19:35:11 GMT+0530 (India Standard Time)",
